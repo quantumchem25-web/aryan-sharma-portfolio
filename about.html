@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Aryan Sharma</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="animations.css" />
+  <link rel="stylesheet" href="responsive.css" />
+</head>
+<body>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="logo">AS<span>.</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="contact.html" class="btn btn-primary nav-cta">Let's Talk</a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <section class="page-hero">
+    <div class="hero-bg"></div>
+    <h1 class="reveal">About <span class="gradient-text">Me</span></h1>
+    <p class="reveal">The person behind the pixels.</p>
+  </section>
+
+  <section class="about section">
+    <div class="about-grid">
+      <div class="about-photo reveal">
+        <div class="photo-frame">
+          <div class="photo-placeholder">AS</div>
+        </div>
+      </div>
+      <div class="about-text">
+        <h2 class="reveal">Hi, I'm Aryan Sharma 👋</h2>
+        <p class="reveal">
+          I'm a creative developer and designer based in India, passionate about building
+          digital products that are both beautiful and functional. With over 5 years of
+          experience, I've helped startups and brands turn ideas into polished experiences.
+        </p>
+        <p class="reveal">
+          My approach blends clean design, thoughtful engineering, and a deep care for the
+          people who use what I build. When I'm not coding, you'll find me exploring new
+          design trends, contributing to open source, or sipping chai while sketching ideas.
+        </p>
+        <div class="skills reveal">
+          <h3>My Toolbox</h3>
+          <div class="skill-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">React</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">Figma</span>
+            <span class="tag">UI/UX</span>
+            <span class="tag">Tailwind</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="timeline section">
+    <div class="section-head reveal">
+      <h2>My <span class="gradient-text">Journey</span></h2>
+    </div>
+    <div class="timeline-list">
+      <div class="timeline-item reveal">
+        <span class="timeline-dot"></span>
+        <div class="timeline-card">
+          <h3>Senior Frontend Developer</h3>
+          <span class="timeline-date">2023 — Present</span>
+          <p>Leading frontend architecture and design systems for a fast-growing SaaS startup.</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <span class="timeline-dot"></span>
+        <div class="timeline-card">
+          <h3>Frontend Developer</h3>
+          <span class="timeline-date">2021 — 2023</span>
+          <p>Built responsive web apps and component libraries used by thousands of users.</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <span class="timeline-dot"></span>
+        <div class="timeline-card">
+          <h3>Freelance Designer</h3>
+          <span class="timeline-date">2019 — 2021</span>
+          <p>Delivered branding, websites, and UI kits for clients across multiple industries.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Aryan Sharma. Crafted with 💜</p>
+    <div class="footer-links">
+      <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://twitter.com" target="_blank" rel="noopener">Twitter</a>
+    </div>
+  </footer>
+
+  <script src="projects.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
